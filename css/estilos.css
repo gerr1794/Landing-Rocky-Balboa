@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background-color: black;
@@ -33,6 +34,12 @@ h2{
     font-size: 35px;
     padding-top: 35px;
     padding-left: 15px;
+    font-family: 'Bebas Neue';
+}
+h3{
+    font-size: 35px;
+    color: white;
+    text-align: center;
     font-family: 'Bebas Neue';
 }
 header {
@@ -80,7 +87,7 @@ button{
 .img-hero{
     display: flex;
 }
-img{
+.img-principal{
     padding-left: 100px;
     width: 1000px;
     height: 700px;
@@ -92,5 +99,42 @@ img{
     padding-top: 50px;
     padding-bottom: 100px;
 }
-.texto-principal{
+footer{
+    display: flex;
+    justify-content: space-around;
 }
+.img-footer{
+    width: 380px;
+    height: 150px;
+}
+.img-peliculas{
+    width: 500px;
+    height: 500px;
+}
+.serie-peliculas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 70px;
+}
+.titulo-peliculas{
+    text-align: center;
+}
+.parrafo-peliculas{
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+.descripcion-pelicula{
+    max-width: 500px;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+}
+.email-contacto{
+    font-size: 25px;
+}
+.titulo-contacto{
+    text-align: center;
+}
+
